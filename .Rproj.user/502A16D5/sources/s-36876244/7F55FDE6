@@ -3,9 +3,9 @@
     "path": "C:/Users/Valentina Fender/GitHub/progdata-class/Portfolio/professional-website.R",
     "project_path": "professional-website.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "3265445166",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1651643353420.0,
     "source_on_save": false,
     "relative_order": 2,
@@ -16,11 +16,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1651643835,
+    "lastKnownWriteTime": 1651644462,
     "encoding": "ISO8859-1",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1651644316475,
+    "last_content_update": 1651644462932,
     "read_only": false,
     "read_only_alternatives": []
 }
