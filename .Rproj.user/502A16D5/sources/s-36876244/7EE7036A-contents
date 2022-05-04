@@ -2,7 +2,7 @@ library(blogdown)
 
 blogdown::new_site()
 
-
+blogdown::new_site(theme = "user/repo", theme_example = TRUE)
 
 
 
