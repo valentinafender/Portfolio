@@ -1,0 +1,20 @@
+# link to how to create a website
+
+library(blogdown)
+
+
+
+# blogdown::new_site()
+# blogdown::new_site(theme=gcushen/hugo-academic)
+
+  'deploy your site through Netlify.com'
+
+
+# my attempt
+
+# blogdown::new_site(theme=gcushen/hugo-academic)
+
+
+new_site(dir = "Theme 2", theme = 'https://github.com/valentinafender/Portfolio.git')
+
+blogdown::serve_site()
