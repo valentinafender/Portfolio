@@ -2,19 +2,18 @@ link to how to create a website
 
 library(blogdown)
 
-blogdown::install_hugo()
+
 
 blogdown::new_site()
 
   'deploy your site through Netlify.com'
 
-blogdown::new_site(theme = "user/repo", theme_example = TRUE)
-
+y
 my attempt
 
 blogdown::new_site(theme=gcushen/hugo-academic)
 
-ibrary(blogdown)
 
 new_site(dir = "Theme", theme = 'https://github.com/valentinafender/Portfolio.git')
 
+blogdown::serve_site()
