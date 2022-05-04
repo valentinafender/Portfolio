@@ -12,4 +12,9 @@ blogdown::new_site(theme = "user/repo", theme_example = TRUE)
 
 my attempt
 
-blogdown::new_site(theme = "valentinafender/", theme_example = TRUE)
+blogdown::new_site(theme=gcushen/hugo-academic)
+
+ibrary(blogdown)
+
+new_site(dir = "Theme", theme = 'https://github.com/valentinafender/Portfolio.git')
+
