@@ -1,6 +1,6 @@
 ---
-title: "Hello R Markdown"
-author: "Frida Gomam"
+title: "My Professional Website"
+author: "Valentina Fender"
 date: 2020-12-01T21:13:14-05:00
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
@@ -9,6 +9,11 @@ tags: ["R Markdown", "plot", "regression"]
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
+
+```{r}
+blogdown::serve_site()
+```
+
 
 # R Markdown
 
