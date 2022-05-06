@@ -1,37 +1,34 @@
-# Rare Pepes
+# Drug Use By Age
 
-This folder contains data behind the story [Can The Blockchain Turn Pepe The Frog Into Modern Art?](https://fivethirtyeight.com/features/pepe-the-frog-symbolism-cryptoart-blockchain/) There are four data files, described below. You can also find further information about individual Rare Pepe assets at [Rare Pepe Wallet](https://rarepepewallet.com/feed).
+This directory contains data behind the story [How Baby Boomers Get High](http://fivethirtyeight.com/datalab/how-baby-boomers-get-high/). It covers 13 drugs across 17 age groups.
 
-`ordermatches_all.csv` contains all Rare Pepe order matches from the beginning of the project, in late 2016, until Feb. 3. All order matches include a pair of assets (a “forward asset” and a “backward asset”) one of which is a Rare Pepe and the other of which is either XCP, the native [Counterparty](https://counterparty.io/) token, or Pepe Cash. The time of the order match can be determined by the block.
-
-Header | Definition
----|---------
-`Block` | The block number
-`ForwardAsset` | The type of forward asset
-`ForwardQuantity` | The quantity of forward asset
-`BackwardAsset` | The type of backward asset
-`BackwardQuantity` | The quantity of backward asset
-
-`blocks_timestamps.csv` is a pairing of block and timestamp. This can be used to determine the actual time an order match occurred, which can then be used to determine the dollar value of Pepe Cash or XCP at the time of the trade.
+Source: [National Survey on Drug Use and Health from the Substance Abuse and Mental Health Data Archive](http://www.icpsr.umich.edu/icpsrweb/content/SAMHDA/index.html).
 
 Header | Definition
 ---|---------
-`Block` | The block number
-`Timestamp` | A Unix timestamp
-
-`pepecash_prices.csv` contains the dollar price of Pepe Cash over time.
-
-Header | Definition
----|---------
-`Timestamp` | A Unix timestamp
-`Price` | The price of Pepe Cash in dollars
-
-`xcp_prices.csv` contains the dollar price of XCP over time.
-
-Header | Definition
----|---------
-`Timestamp` | A Unix timestamp
-`Price` | The price of XCP in dollars
-
-
-Source: [Rare Pepe Foundation](http://rarepepefoundation.com/)
+`alcohol-use` | Percentage of those in an age group who used alcohol in the past 12 months
+`alcohol-frequency` | Median number of times a user in an age group used alcohol in the past 12 months
+`marijuana-use` | Percentage of those in an age group who used marijuana in the past 12 months
+`marijuana-frequency` | Median number of times a user in an age group used marijuana in the past 12 months
+`cocaine-use` | Percentage of those in an age group who used cocaine in the past 12 months
+`cocaine-frequency` | Median number of times a user in an age group used cocaine in the past 12 months
+`crack-use` | Percentage of those in an age group who used crack in the past 12 months
+`crack-frequency` | Median number of times a user in an age group used crack in the past 12 months
+`heroin-use` | Percentage of those in an age group who used heroin in the past 12 months
+`heroin-frequency` | Median number of times a user in an age group used heroin in the past 12 months
+`hallucinogen-use` | Percentage of those in an age group who used hallucinogens in the past 12 months
+`hallucinogen-frequency` | Median number of times a user in an age group used hallucinogens in the past 12 months
+`inhalant-use` | Percentage of those in an age group who used inhalants in the past 12 months
+`inhalant-frequency` | Median number of times a user in an age group used inhalants in the past 12 months
+`pain-releiver-use` | Percentage of those in an age group who used pain relievers in the past 12 months
+`pain-releiver-frequency` | Median number of times a user in an age group used pain relievers in the past 12 months
+`oxycontin-use` | Percentage of those in an age group who used oxycontin in the past 12 months
+`oxycontin-frequency` | Median number of times a user in an age group used oxycontin in the past 12 months
+`tranquilizer-use` | Percentage of those in an age group who used tranquilizer in the past 12 months
+`tranquilizer-frequency` | Median number of times a user in an age group used tranquilizer in the past 12 months
+`stimulant-use` | Percentage of those in an age group who used stimulants in the past 12 months
+`stimulant-frequency` | Median number of times a user in an age group used stimulants in the past 12 months
+`meth-use` | Percentage of those in an age group who used meth in the past 12 months
+`meth-frequency` | Median number of times a user in an age group used meth in the past 12 months
+`sedative-use` | Percentage of those in an age group who used sedatives in the past 12 months
+`sedative-frequency` | Median number of times a user in an age group used sedatives in the past 12 months
